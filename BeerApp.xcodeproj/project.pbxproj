@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F4666B5292C0969001841CA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666B4292C0969001841CA /* Configuration.swift */; };
+		5F4666B9292C0993001841CA /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666B8292C0993001841CA /* URLParameterEncoder.swift */; };
+		5F4666BD292C09B7001841CA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666BC292C09B7001841CA /* NetworkError.swift */; };
+		5F4666C0292C09CB001841CA /* HTTPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666BF292C09CB001841CA /* HTTPLogger.swift */; };
+		5F4666C2292C09D9001841CA /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666C1292C09D9001841CA /* HTTPTask.swift */; };
+		5F4666C4292C09E7001841CA /* HTTPBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666C3292C09E7001841CA /* HTTPBuilder.swift */; };
+		5F4666C6292C09F3001841CA /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666C5292C09F3001841CA /* HTTPError.swift */; };
+		5F4666C8292C09FE001841CA /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666C7292C09FE001841CA /* HTTPResponse.swift */; };
+		5F4666CA292C0A14001841CA /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666C9292C0A14001841CA /* JSONParameterEncoder.swift */; };
+		5F4666CC292C0A28001841CA /* ParametersEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666CB292C0A28001841CA /* ParametersEncoding.swift */; };
+		5F4666CE292C0A40001841CA /* BaseEndpointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666CD292C0A40001841CA /* BaseEndpointManager.swift */; };
+		5F4666D0292C0A53001841CA /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666CF292C0A53001841CA /* Requestable.swift */; };
+		5F4666D2292C0A5E001841CA /* NativeRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666D1292C0A5E001841CA /* NativeRequestable.swift */; };
+		5F4666D5292C0A85001841CA /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666D4292C0A85001841CA /* URLSession.swift */; };
+		5F4666D7292C0AB6001841CA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666D6292C0AB6001841CA /* Endpoint.swift */; };
+		5F4666D9292C0B79001841CA /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666D8292C0B79001841CA /* Encodable.swift */; };
+		5F4666DD292C0BA2001841CA /* BeerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4666DC292C0BA2001841CA /* BeerRequest.swift */; };
 		5FFF87FD2907179E00E44A16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF87FC2907179E00E44A16 /* AppDelegate.swift */; };
 		5FFF87FF2907179E00E44A16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF87FE2907179E00E44A16 /* SceneDelegate.swift */; };
 		5FFF88012907179E00E44A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF88002907179E00E44A16 /* ViewController.swift */; };
@@ -16,6 +33,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F4666B4292C0969001841CA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		5F4666B8292C0993001841CA /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		5F4666BC292C09B7001841CA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5F4666BF292C09CB001841CA /* HTTPLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPLogger.swift; sourceTree = "<group>"; };
+		5F4666C1292C09D9001841CA /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		5F4666C3292C09E7001841CA /* HTTPBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBuilder.swift; sourceTree = "<group>"; };
+		5F4666C5292C09F3001841CA /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		5F4666C7292C09FE001841CA /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		5F4666C9292C0A14001841CA /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		5F4666CB292C0A28001841CA /* ParametersEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersEncoding.swift; sourceTree = "<group>"; };
+		5F4666CD292C0A40001841CA /* BaseEndpointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEndpointManager.swift; sourceTree = "<group>"; };
+		5F4666CF292C0A53001841CA /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		5F4666D1292C0A5E001841CA /* NativeRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeRequestable.swift; sourceTree = "<group>"; };
+		5F4666D4292C0A85001841CA /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		5F4666D6292C0AB6001841CA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		5F4666D8292C0B79001841CA /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		5F4666DC292C0BA2001841CA /* BeerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRequest.swift; sourceTree = "<group>"; };
 		5FFF87F92907179E00E44A16 /* BeerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFF87FC2907179E00E44A16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FFF87FE2907179E00E44A16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +71,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F4666B2292C092F001841CA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666B6292C097C001841CA /* API */,
+				5F4666B7292C0986001841CA /* Encoding */,
+				5F4666BA292C09A9001841CA /* Utils */,
+				5F4666CF292C0A53001841CA /* Requestable.swift */,
+				5F4666D1292C0A5E001841CA /* NativeRequestable.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5F4666B3292C095F001841CA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666B4292C0969001841CA /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		5F4666B6292C097C001841CA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666CD292C0A40001841CA /* BaseEndpointManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5F4666B7292C0986001841CA /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666B8292C0993001841CA /* URLParameterEncoder.swift */,
+				5F4666C9292C0A14001841CA /* JSONParameterEncoder.swift */,
+				5F4666CB292C0A28001841CA /* ParametersEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		5F4666BA292C09A9001841CA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666BB292C09AE001841CA /* Network */,
+				5F4666BE292C09C1001841CA /* Http */,
+				5F4666D6292C0AB6001841CA /* Endpoint.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F4666BB292C09AE001841CA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666BC292C09B7001841CA /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5F4666BE292C09C1001841CA /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666BF292C09CB001841CA /* HTTPLogger.swift */,
+				5F4666C1292C09D9001841CA /* HTTPTask.swift */,
+				5F4666C3292C09E7001841CA /* HTTPBuilder.swift */,
+				5F4666C5292C09F3001841CA /* HTTPError.swift */,
+				5F4666C7292C09FE001841CA /* HTTPResponse.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		5F4666D3292C0A75001841CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666D4292C0A85001841CA /* URLSession.swift */,
+				5F4666D8292C0B79001841CA /* Encodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F4666DA292C0B91001841CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666DB292C0B99001841CA /* Request */,
+			);
+			name = Model;
+			path = "Modeş";
+			sourceTree = "<group>";
+		};
+		5F4666DB292C0B99001841CA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5F4666DC292C0BA2001841CA /* BeerRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		5FFF87F02907179E00E44A16 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +184,16 @@
 		5FFF87FB2907179E00E44A16 /* BeerApp */ = {
 			isa = PBXGroup;
 			children = (
+				5F4666B2292C092F001841CA /* Network */,
+				5F4666DA292C0B91001841CA /* Model */,
+				5F4666D3292C0A75001841CA /* Extensions */,
 				5FFF87FC2907179E00E44A16 /* AppDelegate.swift */,
 				5FFF87FE2907179E00E44A16 /* SceneDelegate.swift */,
 				5FFF88002907179E00E44A16 /* ViewController.swift */,
 				5FFF88022907179E00E44A16 /* Main.storyboard */,
 				5FFF88052907179F00E44A16 /* Assets.xcassets */,
 				5FFF88072907179F00E44A16 /* LaunchScreen.storyboard */,
+				5F4666B3292C095F001841CA /* Configuration */,
 				5FFF880A2907179F00E44A16 /* Info.plist */,
 			);
 			path = BeerApp;
@@ -138,8 +270,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4666D0292C0A53001841CA /* Requestable.swift in Sources */,
 				5FFF88012907179E00E44A16 /* ViewController.swift in Sources */,
 				5FFF87FD2907179E00E44A16 /* AppDelegate.swift in Sources */,
+				5F4666DD292C0BA2001841CA /* BeerRequest.swift in Sources */,
+				5F4666D5292C0A85001841CA /* URLSession.swift in Sources */,
+				5F4666C0292C09CB001841CA /* HTTPLogger.swift in Sources */,
+				5F4666B5292C0969001841CA /* Configuration.swift in Sources */,
+				5F4666C2292C09D9001841CA /* HTTPTask.swift in Sources */,
+				5F4666D2292C0A5E001841CA /* NativeRequestable.swift in Sources */,
+				5F4666BD292C09B7001841CA /* NetworkError.swift in Sources */,
+				5F4666C8292C09FE001841CA /* HTTPResponse.swift in Sources */,
+				5F4666D7292C0AB6001841CA /* Endpoint.swift in Sources */,
+				5F4666C4292C09E7001841CA /* HTTPBuilder.swift in Sources */,
+				5F4666CC292C0A28001841CA /* ParametersEncoding.swift in Sources */,
+				5F4666CE292C0A40001841CA /* BaseEndpointManager.swift in Sources */,
+				5F4666CA292C0A14001841CA /* JSONParameterEncoder.swift in Sources */,
+				5F4666D9292C0B79001841CA /* Encodable.swift in Sources */,
+				5F4666B9292C0993001841CA /* URLParameterEncoder.swift in Sources */,
+				5F4666C6292C09F3001841CA /* HTTPError.swift in Sources */,
 				5FFF87FF2907179E00E44A16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +444,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +473,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
